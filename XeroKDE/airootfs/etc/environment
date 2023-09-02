@@ -1,1 +1,44 @@
 EDITOR=nano
+#
+# This file is parsed by pam_env module
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+# Configure AMD. Only required if you have AMD iGPU/dGPU
+#AMD_VULKAN_ICD="RADV"
+#QT_QPA_PLATFORMTHEME="qt5ct"
+#MOZ_ENABLE_WAYLAND=1
+
+# Enable AMD ACO shader compiler threading
+mesa_glthread=true
+
+# Set video decode to AMD. This should be set automatically since 12.0.1 of
+# libva-mesa-driver. This is only in here for testing.
+#VDPAU_DRIVER="radeonsi"
+
+# Enable rendering. Still in development, will probably crash!
+#VKD3D_CONFIG=dxr11
+#VKD3D_CONFIG=dxr
+
+# Pascal speed hack for Vulkan for all games. This should make a big difference
+# however _may_ cause problems in some games. If it does for you, move it from
+# here to steam Launch Options.
+#VKD3D_CONFIG=force_static_cbv
+
+# Enable DLSS. This is still fairly new.
+#PROTON_ENABLE_NVAPI=1
+#PROTON_HIDE_NVIDIA_GPU=0
+
+# Compensate for compositing Window Managers:
+# 1 = Display _previous_ rendered frame. Highest FPS, but higher latency
+# 2 = Display _latest_ rendered frame, better latency, but _possibly_ lower FPS
+PRIMUS_SYNC=2
+
+# Enable shader disk cache per game instead of regenerating the cache at every
+# game launch. The disk cache path should no longer be required, however if
+# the shader cache is being regenerated each launch, try specifying it.
+__GL_SHADER_DISK_CACHE=1
+#__GL_SHADER_DISK_CACHE_PATH=/var/cache/shaders
+
+# Enable threaded optomisation for OpenGL.
+__GL_THREADED_OPTIMIZATION=1

@@ -21,12 +21,12 @@ echo
 
 	xerolinuxVersion='2023.09'
 
-	isoLabel='xerolinux-'$xerolinuxVersion'-x86_64.iso'
+	isoLabel='xerolinux-surface-'$xerolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 72-1"
-	buildFolder=$HOME"/xero-build"
-	outFolder=$HOME"/Xero-Out"
+	buildFolder=$HOME"/xero-surface-build"
+	outFolder=$HOME"/Xero-surface-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	# If you are ready to use your personal repo and personal packages
@@ -191,11 +191,11 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="xerolinux'
-	newname1='iso_name="xerolinux'
+	oldname1='iso_name="xerolinux-surface'
+	newname1='iso_name="xerolinux-surface'
 
-	oldname2='iso_label="xerolinux'
-	newname2='iso_label="xerolinux'
+	oldname2='iso_label="xerolinux-surface'
+	newname2='iso_label="xerolinux-surface'
 
 	oldname3='XeroLinux'
 	newname3='XeroLinux'

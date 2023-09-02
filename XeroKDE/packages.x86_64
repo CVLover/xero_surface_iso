@@ -51,12 +51,15 @@ less
 lftp
 libfido2
 libusb-compat
-linux
-linux-headers
+linux-surface
+linux-surface-headers
+iptsd
 linux-atm
 linux-firmware
 linux-firmware-marvell
+linux-surface-secureboot-mok
 lsscsi
+libwacom-surface
 lvm2
 lynx
 man-db
