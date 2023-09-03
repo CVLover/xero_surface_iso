@@ -5,6 +5,6 @@ Type = Package
 Target = lsb-release
 
 [Action]
-Description = Add XeroLinux specifc config.
+Description = Add XeroLinux Surface specifc config.
 When = PostTransaction
-Exec = /bin/sh -c "sed -i -e s'?^DISTRIB_ID=.*$?DISTRIB_ID=XeroLinux-KDE?' -e s'?^DISTRIB_DESCRIPTION=.*$?DISTRIB_DESCRIPTION=\"XeroLinux\"?' /etc/lsb-release"
+Exec = /bin/sh -c "sed -i -e s'?^DISTRIB_ID=.*$?DISTRIB_ID=XeroLinux-Surface-KDE?' -e s'?^DISTRIB_DESCRIPTION=.*$?DISTRIB_DESCRIPTION=\"XeroLinux Surface\"?' /etc/lsb-release"

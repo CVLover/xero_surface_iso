@@ -472,13 +472,19 @@ python-websockets
 
 ### Browser
 
+vivaldi
+vivaldi-ffmpeg-codecs
+vivaldi-widevine
+
 firefox
 firefox-ublock-origin
 
-
+### Communication
+discord
 
 ### Multimedia
-
+vlc
+audacious
 ffmpeg
 ffmpegthumbs
 
