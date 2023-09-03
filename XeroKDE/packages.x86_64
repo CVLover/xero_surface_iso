@@ -488,6 +488,9 @@ audacious
 ffmpeg
 ffmpegthumbs
 
+### Password Manager
+1password
+
 ### PKG Management
 
 yay-bin
