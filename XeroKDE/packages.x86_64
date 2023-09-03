@@ -472,8 +472,10 @@ python-websockets
 
 ### Browser
 
-firefox
-firefox-ublock-origin
+#firefox
+#firefox-ublock-origin
+
+
 
 ### Multimedia
 
