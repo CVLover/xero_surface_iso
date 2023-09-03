@@ -1,5 +1,5 @@
 NAME="XeroLinux-Surface"
-PRETTY_NAME="XeroLinux"
+PRETTY_NAME="XeroLinux Surface"
 ID=XeroLinux
 ID_LIKE=arch
 BUILD_ID=rolling
