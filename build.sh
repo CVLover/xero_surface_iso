@@ -197,12 +197,12 @@ echo
 	oldname2='iso_label="xerolinux-surface'
 	newname2='iso_label="xerolinux-surface'
 
-	oldname3='XeroLinux'
-	newname3='XeroLinux'
+	oldname3='xerolinux-surface'
+	newname3='xerolinux-surface'
 
 	#hostname
-	oldname4='XeroLinux'
-	newname4='XeroLinux'
+	oldname4='xerolinux-surface'
+	newname4='xerolinux-surface'
 
 	echo "Changing all references"
 	echo
