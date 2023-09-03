@@ -65,7 +65,7 @@ Now that we have build environment on our system, it's time to build it.
 
 **Build ISO :**
 ```
-cd ~/xero_iso/ && ./build.sh
+cd ~/xero_surface_iso/ && ./build.sh
 ```
 
 Build will take some time depending on your machine's specs, once done you will be prompted for root password, please type it so it can clean up the build environment. Finally your ISO is ready in `~/Xero-Out/` Have fun !
