@@ -1,6 +1,6 @@
-# XeroLinux ISO Repo
+# XeroLinux Surface ISO Repo
 
-This is the **Flagship** version of **XeroLinux**. It uses the **KDE Plasma** Desktop environment [Click Here](https://forum.xerolinux.xyz/thread-4.html) for full release info.
+This is the **Flagship** version of **XeroLinux Surface**. It uses the **KDE Plasma** Desktop environment [Click Here](https://forum.xerolinux.xyz/thread-4.html) for full release info.
 
 You can either build it yourselves following the guide below, that way you always have the latest version available as of build time, if you can't, or prefer not to, you can download the pre-built ISO from the [Official Site](https://xerolinux.xyz).
 
@@ -21,7 +21,7 @@ Script was tested on <a href="https://archlinux.org">Arch</a>/<a href="https://x
 
 ## Note before building
 
-If you already are on any version of **XeroLinux**, you do not need to do all this, just use our tool, which has a script that will do it for you. Just launch it, go to **Post-Instal System Config** and click on the **ISO Builder** button, select option *1* **XeroLinux KDE Plasma** and watch it do its magic. Keep a close eye on it while it builds, because you will be prompted for root password, please type it so it can clean up the build environment. Finally your ISO is ready in `~/Xero-Out/` Have fun ! Otherwise follow the guide below...
+If you already are on any version of **XeroLinux Surface**, you do not need to do all this, just use our tool, which has a script that will do it for you. Just launch it, go to **Post-Instal System Config** and click on the **ISO Builder** button, select option *1* **XeroLinux KDE Plasma** and watch it do its magic. Keep a close eye on it while it builds, because you will be prompted for root password, please type it so it can clean up the build environment. Finally your ISO is ready in `~/Xero-Out/` Have fun ! Otherwise follow the guide below...
 
 ### Distrobox Option
 
@@ -56,7 +56,7 @@ Grab the build environment. Just note that you will need Git installed in order 
 
 **Grab Build Env.**
 ```
-cd ~ && git clone https://github.com/xerolinux/xero_iso.git
+cd ~ && git clone https://github.com/CVLover/xero_surface_iso.git
 ```
 
 ### Step 2 - Building the XeroKDE ISO :
@@ -65,7 +65,7 @@ Now that we have build environment on our system, it's time to build it.
 
 **Build ISO :**
 ```
-cd ~/xero_iso/ && ./build.sh
+cd ~/xero_surface_iso/ && ./build.sh
 ```
 
 Build will take some time depending on your machine's specs, once done you will be prompted for root password, please type it so it can clean up the build environment. Finally your ISO is ready in `~/Xero-Out/` Have fun !
